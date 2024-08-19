@@ -1,0 +1,13 @@
+.admin-dashboard-container {
+    display: flex;
+    background-image: url('https://ik.imagekit.io/livlabs/ik-seo/pma/assets/iStock-1477905681_6bvNVfcey/business-dashboard-finance-management-on-3d-laptop-with-aspects-business-analysis-and-analytics-online-through-the-app-investment-trade-and-finance-management-with-infographics-vector-blue-banner.jpg?tr=w-auto,dpr-4,q-70');
+    background-size: cover;
+    height: 650px;
+  }
+  
+  .admin-dashboard-content {
+    margin-left: 250px;
+    padding: 20px;
+    flex: 1;
+  }
+  

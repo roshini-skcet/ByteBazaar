@@ -1,0 +1,113 @@
+
+.customer-details {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f0f0f0, #ffffff);
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    max-width: 800px;
+    margin: auto;
+   
+}
+
+h1 {
+    margin-bottom: 25px;
+    color: #2c3e50;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+.details-table th,
+.details-table td {
+    padding: 14px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.details-table th {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.details-table td {
+    background-color: #f8f8f8;
+}
+
+.details-table input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(100% - 22px); 
+    font-size: 1rem;
+}
+
+
+.actions {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .actions button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin: 0 10px; 
+    font-size: 0.875rem; 
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .actions button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+  }
+  
+  .actions button:active {
+    background-color: #1f65a6;
+    transform: translateY(0);
+  }
+  
+
+.submit-button,
+.delete-button {
+    padding: 8px 14px;
+    font-size: 0.875rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.submit-button {
+    background-color: #2ecc71;
+}
+
+.submit-button:hover {
+    background-color: #27ae60;
+}
+
+.submit-button:active {
+    background-color: #1e8449;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.delete-button:active {
+    background-color: #a93226;
+}

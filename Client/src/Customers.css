@@ -1,0 +1,35 @@
+.customers-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    background-image: url("https://img.freepik.com/premium-photo/background-hyper-realistic-colorful-beautiful-wallpaper-hd-best-quality-image_859483-330147.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 600px;
+  }
+  
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .customer-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .customer-card p {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .customer-card p strong {
+    color: #007bff;
+  }
+  

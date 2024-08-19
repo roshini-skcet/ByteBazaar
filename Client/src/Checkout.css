@@ -1,0 +1,101 @@
+.checkout-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .payment-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .payment-button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .payment-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .gpay {
+    background-color: #0c9a1f;
+    color: white;
+  }
+  
+  .paypal {
+    background-color: #065d97;
+    color: white;
+  }
+  
+  .paytm {
+    background-color: #1d046f;
+    color: white;
+  }
+  
+  .payment-button:focus {
+    outline: none;
+  }
+  .go-back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100px;
+  }
+  
+  .go-back-button:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+   
+  }
+  
+  .go-back-button:focus {
+    outline: none;
+    
+  }
+  
+.qr-scanner {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.qr-code-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.qr-code-container h4 {
+  margin-bottom: 10px;
+}
+
+.qr-code-container canvas {
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+  
+  
